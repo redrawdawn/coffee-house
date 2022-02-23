@@ -1,13 +1,39 @@
+header {
+    font-family:cursive;
+    color:beige;
+    font-size: xx-large;
+}
+body {
+    background-color: rosybrown;
+}
+a {
+    color: brown;
+}
 section.list {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 article.shop {
+    border-radius: 7px;
+    font-family:cursive ;
+    background-color: beige;
     width: 200px;
     border-style: solid;
     border-width: 1px;
     margin: 3px;
-    padding: 2px;
-    border-color: black;
+    padding: 4px;
+    border-color: beige;
+}
+.name {
+    font-size:x-large;
+}
+.tagline {
+    font-style: italic;
+}
+.address {
+    padding-top: 5px;
+}
+.phone-number {
+    padding-top: 5px;
 }
